@@ -1,0 +1,70 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-specific files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+*.env
+
+# Ignore compiled code
+*.class
+*.o
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and database files
+*.log
+*.sqlite3
+*.db
+
+# Ignore package manager files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore IDE-specific directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore build and distribution directories
+dist/
+build/
+*.egg
+*.whl
+*.tar.gz
+
+# Ignore macOS resource forks
+._*
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.cov
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Ignore sensitive files
+.env
+.secret
