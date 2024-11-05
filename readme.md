@@ -37,7 +37,7 @@ Matches entities between ground truth and predictions, generating performance st
 ## Installation
 Install the required packages with:
 ```bash
-pip install requests python-dotenv fuzzywuzzy python-Levenshtein jiwer whisper-normalizer jarowinkler fuzzy
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ Extract named entities from a transcript and organize them into a timeline.
 
 **Command:**
 ```bash
-python process_transcript.py path/to/transcript.txt path/to/output/directory --entity_types NAME ORGANIZATION
+python get_entities.py path/to/transcript.txt path/to/output/directory --entity_types NAME ORGANIZATION
 ```
 
 **Arguments:**

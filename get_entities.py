@@ -190,4 +190,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python get_entities.py.py path/to/transcript.txt path/to/output/directory --entity_types NAME ORGANIZATION
+# python get_entities.py path/to/transcript.txt path/to/output/directory --entity_types NAME ORGANIZATION
